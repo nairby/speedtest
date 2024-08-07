@@ -8,3 +8,6 @@ Runs test locally and collates results in a CSV file
 
 
 Still work in progress ...
+
+Idea: parse output to markdown table
+
