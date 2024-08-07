@@ -6,6 +6,7 @@
 
 cd $PSScriptRoot
 
+# TODO
 # Check binary is downloaded
 # Retrieve and unpack
 
@@ -18,6 +19,11 @@ $q = .\speedtest.exe -f csv --output-header | ConvertFrom-Csv
 $q | Add-Member -NotePropertyMembers @{
     time = Get-Date
 }
+
+# TODO
+# Date & time in separate fields
+# Add hostname field
+# Field ordering in CSV
 
 # Creates the CSV if it doesn't exist
 $q | Export-Csv $targ -Append -Encoding ascii
