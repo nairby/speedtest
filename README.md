@@ -1,5 +1,5 @@
 # speedtest
-Broadband speed test
+Internet speed test
 
 Uses https://www.speedtest.net/apps/cli
 
