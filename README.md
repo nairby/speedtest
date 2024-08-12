@@ -12,3 +12,6 @@ Still work in progress ...
 Idea: parse output to markdown table
 
 Idea: versions for other platforms
+
+How to configure as Scheduled Task
+
