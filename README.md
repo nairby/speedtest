@@ -15,3 +15,5 @@ Idea: versions for other platforms
 
 How to configure as Scheduled Task
 
+Also output to comsole if running from interactive terminal
+
