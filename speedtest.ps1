@@ -4,7 +4,7 @@
 
 # Configure as scheduled task
 
-cd $PSScriptRoot
+Push-Location $PSScriptRoot
 
 # TODO
 # Check binary is downloaded
@@ -24,6 +24,10 @@ $q | Add-Member -NotePropertyMembers @{
 # Date & time in separate fields
 # Add hostname field
 # Field ordering in CSV
+# Lookup whois info?
+# Record local IP address?
 
 # Creates the CSV if it doesn't exist
 $q | Export-Csv $targ -Append -Encoding ascii
+
+Pop-Location
